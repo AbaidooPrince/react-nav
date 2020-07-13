@@ -4,6 +4,7 @@ import {
     MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem
     } from "mdbreact";
 import  Home  from '../home';
+import '../navigation/styles/main-nav.css';
 
 class MainNavigation extends React.Component{
 
@@ -65,12 +66,7 @@ class MainNavigation extends React.Component{
             </MDBNavItem>
           </MDBNavbarNav>
         </MDBCollapse>
-      </MDBNavbar>
-
-                <div className="container">
-                <Home />
-                </div>
-           
+      </MDBNavbar>          
 
             </div>
 

@@ -1,0 +1,5 @@
+MDBNavLink :active{
+    background-color: transparent !important;
+    border-bottom: 10px !important;
+    border-bottom-color: #293829 !important;
+}

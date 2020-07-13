@@ -1,27 +1,21 @@
 import React from 'react';
+import MainNavigation from './navigation/main-nav';
+import Footer from './footer';
+import TextImageSection from './home/text-image-section';
+import ImageTextSection from './home/image-text-section';
 
 class Home extends React.Component{
 
         render() {
             return(
-                <div className="content">
+                <>
+                <MainNavigation />
+                <TextImageSection />
+                <ImageTextSection />
+                <Footer />  
+                </>
 
-                <section className="content-section-1">
-                  <p>Section content 1 wil go here</p>
-
-
-
-                </section>
-                <section>
-                    <p> section content 2 will go here</p>
-                </section>
-                <section>
-                    <p>section content 3 will go here</p>
-                </section>
-
-                </div>
-
-
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
 
             )
         }

@@ -1,5 +1,6 @@
 .signup{
     overflow: hidden;
+    height: 100%;
 }
 
 .left-pane{
@@ -8,4 +9,7 @@
 .signup-canvas {
     padding-top: 2rem;
 
+}
+.menu{
+    margin-right: 4rem;
 }

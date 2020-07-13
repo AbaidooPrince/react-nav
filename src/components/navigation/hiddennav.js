@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {  MDBNavbar, MDBNavbarNav, MDBNavLink } from 'mdbreact';
+import {  MDBNavbar, MDBNavbarNav, MDBNavLink, MDBNavItem } from 'mdbreact';
 
 export default class HiddenNav extends Component {
     state = {
@@ -14,8 +14,12 @@ export default class HiddenNav extends Component {
         return (
                 <MDBNavbar className="" dark expand="md">
                     <MDBNavbarNav left>
-                        <MDBNavLink to="!#">Hello</MDBNavLink>
+                        <MDBNavItem>
+                        <MDBNavLink to="/">Home</MDBNavLink>
+                        </MDBNavItem>
+                        <MDBNavItem>
                         <MDBNavLink to="!#">World</MDBNavLink>
+                        </MDBNavItem>
                     </MDBNavbarNav>
                 </MDBNavbar>                
           
